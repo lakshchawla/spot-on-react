@@ -3,6 +3,8 @@ import Navbar from '../components/navbar';
 import bg_video from "./../assets/Untitled.mp4";
 import Footer from '../components/footer';
 import phone_pic from './../assets/phone_adv.png';
+import logo_light from "./../assets/so_logo.png";
+
 
 function Home() {
     return (
@@ -13,10 +15,18 @@ function Home() {
                 </video>
 
 
-                <div class="HeroPageContent ms-auto me-auto text-white text-center" data-aos="fade-up" data-aos-duration="1600">
-                    <h3 class="sm_text fs-4 mb-4"> FROM OFFICE TO CONSTRUCTION,</h3>
-                    <h3 class="lg_text">WE'VE GOT YOU ALL COVERED</h3>
 
+                <div class="HeroPageContent ms-auto me-auto text-white text-center" data-aos="fade-up" data-aos-duration="1600">
+
+{/* 
+                    <img src={logo_light} alt="" srcset="" className='col-1' />
+                    <h5 className='mb-5 mt-3 pb-5'>SPOT ON Trading & Services Co. W.L.L</h5> */}
+
+
+                    <div className="hero_prom_content">
+                        <h3 class="sm_text fs-4 mb-4"> FROM OFFICE TO CONSTRUCTION,</h3>
+                        <h3 class="lg_text">WE'VE GOT YOU ALL COVERED</h3>
+                    </div>
                 </div>
                 <div class="button_know_more_hero text-white text-center">
                     <a href="#page1_home">

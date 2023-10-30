@@ -6,6 +6,7 @@ import Form from './form';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Sales from '../pages/Sales';
+import Services from '../pages/Services';
 
 function Navbar() {
   return (
@@ -34,9 +35,9 @@ function Navbar() {
           <ul className="links_canvas">
 
             <li><h3 className='mb-3'><Link to="/">Home</Link></h3></li>
-            <li><h3 className='mb-3'><Link href="/sales">Sales</Link></h3></li>
-            <li><h3 className='mb-3'><Link to="/">Services</Link></h3></li>
-            <li><h3 className='mb-3'><Link href="/about">About</Link></h3></li>
+            <li><h3 className='mb-3'><Link to="/sales">Sales</Link></h3></li>
+            <li><h3 className='mb-3'><Link to="/services">Services</Link></h3></li>
+            <li><h3 className='mb-3'><Link to="/about">About</Link></h3></li>
             <li><h3 className='mb-3'><Link to="/">Contact Us</Link></h3></li>
             <li><h3 className='mb-3'><Link to="/">Admin</Link></h3></li>
           </ul>

@@ -11,13 +11,12 @@ export default function App() {
   return (
     <>
       <BrowserRouter>
-      <Navbar></Navbar>
+        <Navbar></Navbar>
         <Routes>
-          <Route path="/" element={<Home />}>
-            <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="sales" element={<Sales />} />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="sales" element={<Sales />} />
         </Routes>
       </BrowserRouter>
       <Footer></Footer>

@@ -12,12 +12,13 @@ function Footer() {
         <footer class="footer_web text-white ps-0 pe-0 p-md-5 pb-0 mb-0 pb-md-2 ms-auto me-auto">
             <h1 class="text-center" id="contact">Get in touch</h1>
 
+
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13707.535162749458!2d51.52348194284761!3d25.28197713026739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x44d9319f78cfd4b1!2sDoha%2C%20Qatar!5e0!3m2!1sen!2sin!4v1697903349519!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.2654151006072!2d51.432871476242504!3d25.194270277712853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45d12b273a825f%3A0x89fc0d252dfd1aac!2sSpotOn%20Trading%20%26%20Services%20Company%20W.L.L!5e0!3m2!1sen!2sin!4v1698598569102!5m2!1sen!2sin"
                 class="col-md-10 map_frame mt-5 mb-5" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <div class="row col-12 text-center text-md-start">
+            <div class="row col-11 ms-auto me-auto text-center text-md-start">
                 <div class="col-md-5 p-0">
 
                     <div class="footer_logo mb-4 ms-md-5 ms-auto me-auto">
@@ -51,7 +52,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div class="col-md-7">
-        <Form></Form>
+                    <Form></Form>
                 </div>
 
             </div>
